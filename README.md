@@ -1,19 +1,15 @@
 # simple haiku api
 
-## Getting Started
-
-To get started with this template, simply paste this command into your terminal:
-
-```bash
-bun create elysia ./elysia-example
-```
-
 ## Development
 
 To start the development server run:
 
 ```bash
 bun run dev
+# open http://localhost:3000/
 ```
 
-Open http://localhost:3000/ with your browser to see the result.
+## TODO
+
+- [ ] simply return a random haiku
+- [ ] full-text search via drizzle's [guide](https://orm.drizzle.team/learn/guides/postgresql-full-text-search)
