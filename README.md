@@ -11,5 +11,5 @@ bun run dev
 
 ## TODO
 
-- [ ] simply return a random haiku
+- [x] simply return a random haiku
 - [ ] full-text search via drizzle's [guide](https://orm.drizzle.team/learn/guides/postgresql-full-text-search)
