@@ -1,6 +1,6 @@
 import { pgTable, uuid, text, timestamp } from "drizzle-orm/pg-core";
 
-export const haikus = pgTable("haikus", {
+export const haikusTable = pgTable("haikus", {
   id: uuid("id").defaultRandom().primaryKey(),
   first: text("first").notNull(),
   mid: text("mid").notNull(),
@@ -8,3 +8,5 @@ export const haikus = pgTable("haikus", {
   source: text("source").notNull(),
   createdAt: timestamp("created_at").notNull().defaultNow(),
 });
+
+export type SelectHaiku = typeof haikusTable.$inferSelect;
