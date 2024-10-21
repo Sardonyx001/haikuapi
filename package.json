@@ -11,6 +11,7 @@
     "dotenv": "^16.4.5",
     "drizzle-orm": "^0.33.0",
     "elysia": "latest",
+    "logestic": "^1.2.4",
     "postgres": "^3.4.4"
   },
   "devDependencies": {
